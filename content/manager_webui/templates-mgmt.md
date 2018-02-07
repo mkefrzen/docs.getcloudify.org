@@ -27,7 +27,7 @@ Cloudify provides by default the following templates:
 
 * **Tenant Management** - Users, User-Groups and Tenants Management. This page does not exist in the community edition. 
 
-* **High Availability** - A view-only presentation of the system’s high-availability status. 
+* **High Availability** - A view-only presentation of the Manager’s high-availability status. 
 
 * **System Resources** - Plugins, Secrets and Snapshots management. 
 
@@ -64,16 +64,15 @@ After clicking the “Create template” button, specify the template’s name a
 Next, choose the pages you would like to include in the template from the pages’ list on the left, and choose “Create”. 
 
 The template will now apply to all users with the relevant roles in the specified tenants. 
-In order for the template to apply to users who already logged in the system once, those users will have to choose the option “reset” under the user’s menu. This action will re-load the updated templates from the system. Please notice that the new template will run over any pages that the users manually created using the “add page” option in “edit mode”. 
-
+In order for the template to apply to users who already logged in the system once, those users will have to choose the option “Reset” under the user’s menu. This action will re-load the updated templates from the system. Please notice that the new template will run over any pages that the users may have manually created using the “add page” option in “edit mode”, and other changes they might have made to their existing pages.
 
 In case a user fits more than one template in a specific tenant (if the user has more than one role in this tenant), the template which will apply to it will be the first template on the list, from all those it fits.
 
 ### Creating a new page
 
-After clicking the “Create page”  button and specifying the name of the new page, you will see the new page appear in the page’s list, and a Page Id will be automatically created for it. You will then be able to choose or edit it from the actions menu to its right. 
-Upon choosing the edit option, the page will be open in “edit mode”, in which you can add widgets and edit their properties, order and appearance.
-Once you are happy with your page, choose “save” in the page management menu, and once back in the Template Management window you can now choose a template and add the page to it. 
-Once  you are done creating and editing the templates and pages, choose “Close” from the top right corner. 
+After clicking the “Create page”  button and specifying the name of the new page, you will see the new page appears in the pages list, and a Page Id will be automatically generated for it. You will then be able to choose to edit it from the actions menu to its right. 
+Upon choosing the edit option, the page will open up in “edit mode”, in which you can add widgets and edit their properties, order and appearance.
+Once you are happy with your page, choose “Save” in the page management menu, and once back in the Template Management window you can now choose a template and add the page to it. 
+Once you are done creating and editing the templates and pages, choose “Close” from the top right corner. 
 
 
